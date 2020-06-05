@@ -1,0 +1,11 @@
+console.log(add_new_item())
+remove_default_menu()
+add_new_header_menu("#","Home")
+add_new_header_menu("services.html","Services")
+add_new_header_menu("aboutus.html","About Us");
+add_new_header_menu("cart.html","Cart")
+change_header_title("Food-Services")
+a=new GallaryAlpha(document.getElementsByTagName("body")[0])
+a.setTitle("Testy")
+a.setQuates("Testy food make healthy life")
+a.renderEverything(true)
